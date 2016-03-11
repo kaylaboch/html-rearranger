@@ -10,7 +10,7 @@ $('body').append($belowveggies);
 $aboveH1.html('Above ground veggies');
 $('body').append($aboveH1);
 
-$('body').append($aboveveggies)
+$('body').append($aboveveggies);
 
 $('ul li').each(function () {
   if ($(this).hasClass('below')) {
